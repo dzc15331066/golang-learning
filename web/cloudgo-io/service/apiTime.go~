@@ -1,0 +1,10 @@
+package service
+
+import (
+	"net/http"
+	"time"
+)
+
+func timeHandler() {
+
+}
