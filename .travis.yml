@@ -1,6 +1,9 @@
 language:	go
 go:
   - 1.9 # The latest version of Go.
-
+services:
+  - mysql
+before_install:
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
 install:	go get github.com/go-sql-driver/mysql github.com/go-xorm/xorm
 script: cd ./web/cloudgo-data/entities ; go test
