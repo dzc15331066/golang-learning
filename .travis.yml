@@ -1,6 +1,5 @@
-language: go
-
+language:　go
 go:
 　　- 1.8
-install:	go get -t
+install:　go get -t
 script: cd ./web/cloudgo-data/entities ; go test
