@@ -2,5 +2,5 @@ language:	go
 go:
   - 1.9 # The latest version of Go.
 
-install:	go get -t
+install:	go version
 script: cd ./web/cloudgo-data/entities ; go test
