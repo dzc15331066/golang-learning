@@ -140,7 +140,7 @@ curl -v  http://127.0.0.1:8080/api/time
 
 浏览器访问http://127.0.0.1:8080/time
 
-![2](/home/dengzhc/go/src/github.com/dzc15331066/golang-learning/web/cloudgo-io/images/2.png)
+![2](./images/2.png)
 
 ### 3. 提交表单，输出表格
 
